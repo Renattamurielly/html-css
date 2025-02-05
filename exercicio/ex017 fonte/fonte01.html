@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            16px geralmente = 1em
+            o editor de texto geralmente ja vem com a fonte de 16px
+            o recomendado é usar o px, ou em de preferencia o "em"
+            */
+            font-size: 1em;
+            font-weight: normal;
+            /* font weight usado pra colocar a fonte em negrito 
+            lighter, normal, bold, bolder*/
+            font-style: normal;
+            /* font-style usada para colocar a fonte em italic ou normal */
+
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family 
+            se colocar tudo nessa ordem da pra substituir ficar colocando um por um. EXEMPLOS EM BAIXO*/
+            font: italic bolder 1em 'work sans', sans-serif;
+        
+
+
+h2 {
+    font-size: 2em;
+}
+        }
+        h1, h2 {
+            font-family: 'Times New Roman', Times, serif;
+            /* comandos para mudar as fontes apenas do h1,h2 */
+         }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo reiciendis dignissimos sit cupiditate deleniti dolor eos eum dolorum molestiae a temporibus, voluptas illo enim rerum architecto ducimus? A, sit perspiciatis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae voluptatibus provident quidem numquam deleniti blanditiis. Dolores qui ut perspiciatis consectetur similique voluptates omnis dicta ab soluta quod? Laudantium, repellat voluptatibus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quae ipsam, officiis placeat reiciendis maxime accusamus sunt magnam excepturi necessitatibus delectus obcaecati magni est fugit esse mollitia. Quis, ipsa nisi.</p>
+    <h2>Subtítulo do exercicio </h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere non beatae amet corporis vitae dicta numquam eveniet est maiores, quis expedita! Culpa architecto fugit incidunt tempore a quos! Magnam, hic! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo corporis quas ab fuga dolorem laudantium suscipit sint ipsa asperiores. Unde fugit dicta eius tenetur nulla illo suscipit id nemo est.</p>
+
+</body>
+</html>
